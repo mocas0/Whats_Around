@@ -1,10 +1,13 @@
+
+
+
 source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 
-gem 'mongoid','~> 4.0.0.beta1', github:'mongoid/mongoid'
+gem 'mongoid','~> 5.0.0', github:'mongoid/mongoid'
 gem 'bson_ext'
 gem 'haml'
 gem 'haml-rails'

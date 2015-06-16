@@ -1,0 +1,12 @@
+/Users/rescate/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20150616-25230-uv8iht.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling native.c
+linking shared-object native.bundle
+ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
+
+make "DESTDIR=" install
+/usr/local/opt/coreutils/libexec/gnubin/install -m 0755 native.bundle ./.gem.20150616-25230-mk5eus
