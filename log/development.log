@@ -9685,3 +9685,45 @@ Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2015-06-15 16:32:16 -0700
 
 
 Started GET "/assets/pin.png" for 127.0.0.1 at 2015-06-15 16:32:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 08:41:30 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (13.2ms)
+Completed 200 OK in 133ms (Views: 132.7ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-06-16 08:41:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-16 08:41:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-16 08:41:30 -0700
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2015-06-16 08:41:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-16 08:41:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-16 08:41:30 -0700
+
+
+Started GET "/assets/roadmap.jpg" for 127.0.0.1 at 2015-06-16 08:41:30 -0700
+
+
+Started GET "/main/map" for 127.0.0.1 at 2015-06-16 08:41:32 -0700
+Processing by MainController#map as HTML
+  Rendered main/map.html.haml within layouts/application (6.3ms)
+Completed 200 OK in 28ms (Views: 28.0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2015-06-16 08:41:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-16 08:41:32 -0700
+
+
+Started GET "/assets/pin.png" for 127.0.0.1 at 2015-06-16 08:41:39 -0700
