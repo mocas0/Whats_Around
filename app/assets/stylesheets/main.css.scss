@@ -1,0 +1,34 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$MainColor: #3766af;
+
+html { width: 100%; height: 100% }
+body { font-family: 'Source Sans Pro', sans-serif; padding-top: 60px; padding-bottom: 70px !important; width: 100%; height: 100% }
+.jumbotron { text-align: center; background-image: url("roadmap.jpg") }
+.row h3 { text-align: center }
+.roundedimage img {
+	border-radius: 100%;
+	display: inline-block;
+	float: left;
+	margin-right: 50px;
+}
+.contactus { text-align: center; }
+
+.textleft { text-align: left; }
+
+footer { text-align: center !important ; background-color: #f3f3f3; padding-top: 1%; padding-bottom: 1%; 
+    position: fixed !important; width: 100%; bottom: 0 !important; margin-top: 70px !important; opacity:0.8; } 
+
+.aboutpage { padding-top: 20px; }
+
+#map { width: 100%; height: 100% }
+
+input#maptext { margin-left: 20%; margin-right: 20%;  position: absolute; top: 80px; z-index: 500; font-size: 18px; padding: 10px; width: 60%; background: rgba(255,255,255,.8); }
+
+.leaflet-container { background: transparent; }
+.leaflet-marker-icon { background: url('pin.png'); padding: 6px; padding-bottom: 17px; top: -6px; left: -6px; }
+.leaflet-popup-content { 
+	h2 { font-size: 18px; color: $MainColor; }
+	.item { margin-bottom: 5px; font-size: 14px; }
+}
