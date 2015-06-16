@@ -10061,3 +10061,27 @@ Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-16 10:05:23 
 
 
 Started GET "/assets/pin.png" for 127.0.0.1 at 2015-06-16 10:05:24 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-16 10:22:51 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 57ms (Views: 56.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-16 10:22:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-16 10:22:51 -0700
+
+
+Started GET "/main/map" for 127.0.0.1 at 2015-06-16 10:22:52 -0700
+Processing by MainController#map as HTML
+  Rendered main/map.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 25.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-16 10:22:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-16 10:22:52 -0700
